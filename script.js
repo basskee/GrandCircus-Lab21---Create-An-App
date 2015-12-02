@@ -58,6 +58,7 @@ app.controller('myController', function getAPI($scope,serviceAPI) {
     $scope.puppy1 = response.data.children[0].data.thumbnail;
     $scope.puppy2 = response.data.children[1].data.thumbnail;
     $scope.puppy3 = response.data.children[2].data.thumbnail;
+    $scope.puppy4 = response.data.children[3].data.thumbnail;
   });
 });
 
