@@ -151,7 +151,31 @@ button, input{
 
 button{
 	background-color: #FBDE42 !important;
+	margin-top:15px;
+	margin-left: 15px;
 }
+
+.formcont{
+	margin-top: 6em;
+}
+
+input{
+	margin-top: 10px;
+	border: 5px solid #FBDE42; 
+	-webkit-box-shadow: 
+	  inset 0 0 8px  rgba(0,0,0,0.1),
+	        0 0 16px rgba(0,0,0,0.1); 
+	-moz-box-shadow: 
+	  inset 0 0 8px  rgba(0,0,0,0.1),
+	        0 0 16px rgba(0,0,0,0.1); 
+	box-shadow: 
+	  inset 0 0 8px  rgba(0,0,0,0.1),
+	        0 0 16px rgba(0,0,0,0.1); 
+	padding: 15px;
+	background: rgba(255,255,255,0.5);
+	margin: 0 0 10px 0;
+}
+
 button p{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
